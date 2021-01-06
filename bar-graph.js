@@ -1,6 +1,6 @@
 "use strict";
 
-import { spanishMode, translate } from "./index.js";
+
 
 let labels = [];
 let bars = [];
@@ -36,9 +36,9 @@ function makeBar(label, index) {
   let labelText;
   // let labelEl = document.createElement('span');
   if (label === "_background_noise_") {
-    labelText = spanishMode ? "Ruido de fondo" : "Background noise";
+    labelText = "Background noise";
   } else {
-    labelText = spanishMode ? translate(label) : label;
+    labelText = label;
   }
 
   barEl.setAttribute("data-label", labelText);
