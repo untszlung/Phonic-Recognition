@@ -64,7 +64,7 @@ const lang = navigator.language || navigator.userLanguage;
 
 const predictionDiv = document.getElementsByClassName("prediction")[0];
 
-let currentPrediction, previousPrediction;
+let currentPrediction, previousPrediction, maximum_probability;
 
 currentPrediction = previousPrediction;
 
