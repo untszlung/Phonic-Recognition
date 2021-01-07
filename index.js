@@ -75,7 +75,7 @@ startButton.onclick = () => {
   introSection.style.display = "none";
   setupModel(URL, data => {
     let maximum = Math.max(...data);
-    if (maximum > 0.7) {
+    if (maximum > 0.3) {
       switch (maximum) {
         case data[0]:
           currentPrediction = labels[0];
