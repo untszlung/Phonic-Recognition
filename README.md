@@ -1,4 +1,4 @@
 
 
 Live demos: 
-  - https://untszlung.github.io/phonic_recognition/
+  - https://untszlung.github.io/Phonic-Recognition/
